@@ -1,0 +1,36 @@
+package Pessoa;
+
+public class Carro {
+
+	String Marca;;
+	String Modelo;
+	String Cor;
+	String Ano;
+	
+	public String getMarca() {
+		return Marca;	
+	}
+	public void setMarca(String Marca) {
+		this.Marca = Marca;
+	}
+	public String getModelo() {
+		return Modelo;
+	}
+	public void setModelo(String Modelo) {
+		this.Modelo = Modelo;
+	}
+	public String getCor() {
+		return Cor;
+	}
+	public void setCor(String Cor) {
+		this.Cor = Cor;
+	}
+	public String getAno() {
+		return Ano;
+	}
+	public void setAno(String Ano) {
+		this.Ano = Ano;
+	}
+		
+	}
+
